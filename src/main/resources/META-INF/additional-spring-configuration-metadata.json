@@ -1,0 +1,19 @@
+{
+  "properties": [
+    {
+      "name": "demo.config.path",
+      "type": "java.lang.String",
+      "description": "Description for demo.config.path."
+    },
+    {
+      "name": "demo.config.chunk-size",
+      "type": "java.lang.String",
+      "description": "Description for demo.config.chunk-size."
+    },
+    {
+      "name": "swagger.conf.host",
+      "type": "java.lang.String",
+      "description": "Description for swagger.conf.host."
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+package com.example.demo.processor;
+
+import lombok.RequiredArgsConstructor;
+import org.springframework.batch.core.StepContribution;
+import org.springframework.batch.core.scope.context.ChunkContext;
+import org.springframework.batch.core.step.tasklet.Tasklet;
+import org.springframework.batch.repeat.RepeatStatus;
+
+import javax.sql.DataSource;
+
+
+@RequiredArgsConstructor
+public class XProcessor implements Tasklet {
+    private final DataSource dataSource;
+    private final String batchDate;
+    private final String sqlScript;
+
+    @Override
+    public RepeatStatus execute(StepContribution stepContribution, ChunkContext chunkContext) throws Exception {
+        return null;
+    }
+}
